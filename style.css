@@ -1,0 +1,49 @@
+    body {
+        font-family: "Times New Roman", Times, serif;
+    }
+    
+    h2 {
+        text-align: center;
+        text-decoration: none;
+        font-weight: 800;
+        margin: 20px;
+    }
+    
+    #para {
+        padding: 50px;
+    }
+    
+    #para p {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
+    #footer {
+        position: fixed;
+        padding: 10px 10px 0px 10px;
+        bottom: 0;
+        width: 100%;
+        /* Height of the footer*/
+        /* height: 40px; */
+        background-color: rgb(11, 11, 65);
+        padding: 30px;
+    }
+    
+    #footer p {
+        font-size: 20px;
+        color: white;
+        text-align: center;
+    }
+    
+    button {
+        text-align: center;
+        font-family: Estrangelo Edessa;
+        background-color: orangered;
+        color: white;
+        border-radius: 20px;
+    }
+    /* @media screen and (max-width: 480px) {
+        body {
+            background-color: lightgreen;
+        }
+    } */
