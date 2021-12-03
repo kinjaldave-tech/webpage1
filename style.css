@@ -1,28 +1,38 @@
     body {
         font-family: "Times New Roman", Times, serif;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    html {
+        position: relative;
+        min-height: 100%;
     }
     
     h2 {
         text-align: center;
         text-decoration: none;
         font-weight: 800;
-        margin: 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
     
     #para {
-        padding: 50px;
+        /* padding: 50px; */
     }
     
     #para p {
         text-align: center;
-        margin-bottom: 30px;
+        margin-bottom: 40px;
     }
     
     #footer {
         position: absolute;
         bottom: 0;
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 30px;
         background-color: rgb(11, 11, 65);
-        padding: 30px;
     }
     
     #footer p {
@@ -37,4 +47,17 @@
         background-color: orangered;
         color: white;
         border-radius: 20px;
+    }
+    
+    @media screen and (max-width: 600px) {
+        #para {
+            margin-bottom: 200px;
+        }
+        #para p {
+            margin-top: 20px;
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+        }
     }
